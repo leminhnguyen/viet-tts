@@ -4,12 +4,10 @@
   <h1 align="center"style="color: white; font-weight: bold; font-family:roboto"><span style="color: white; font-weight: bold; font-family:roboto">VietTTS</span>: An Open-Source Vietnamese Text to Speech</h1>
 </p>
 <p align="center">
-    <a href="https://github.com/dangvansam/viet-tts"><img src="https://img.shields.io/github/stars/dangvansam/viet-tts?style=social"></a>
-    <a href="https://huggingface.co/dangvansam/viet-tts"><img src="https://img.shields.io/badge/%F0%9F%A4%97HuggingFace-Model-yellow
-    "></a>
-    <a href="https://huggingface.co/dangvansam/viet-tts"><img src="https://img.shields.io/badge/%F0%9F%A4%97HuggingFace-Demo-green
-    "></a>
-    <a href="https://github.com/dangvansam/viet-tts"><img src="https://img.shields.io/badge/Python-3.10-brightgreen"></a>
+  <a href="https://github.com/dangvansam/viet-tts"><img src="https://img.shields.io/github/stars/dangvansam/viet-tts?style=social"></a>
+  <a href="https://huggingface.co/dangvansam/viet-tts"><img src="https://img.shields.io/badge/%F0%9F%A4%97HuggingFace-Model-yellow"></a>
+  <a href="https://huggingface.co/dangvansam/viet-tts"><img src="https://img.shields.io/badge/%F0%9F%A4%97HuggingFace-Demo-green"></a>
+    <a href="https://github.com/dangvansam/viet-tts"><img src="https://img.shields.io/badge/Python-3.10-green"></a>
     <!-- <a href="https://pypi.org/project/viet-tts" target="_blank"><img src="https://img.shields.io/pypi/v/viet-tts.svg" alt="PyPI Version"> -->
     <a href="LICENSE"><img src="https://img.shields.io/github/license/dangvansam/viet-asr"></a>
     </a>
