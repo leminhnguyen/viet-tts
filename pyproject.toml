@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "viet-tts"
+version = "0.1.0"
+description = "VietTTS: An Open-Source Vietnamese Text to Speech"
+authors = ["dangvansam <dangvansam98@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+conformer = "0.3.2"
+deepspeed = "0.14.2"
+diffusers = "0.27.2"
+gradio = "4.32.2"
+hydra-core = "1.3.2"
+hyperpyyaml = "1.2.2"
+librosa = "0.10.2"
+networkx = "3.1"
+omegaconf = "2.3.0"
+onnx = "1.16.0"
+onnxruntime-gpu = "1.16.0"
+openai-whisper = "20231117"
+protobuf = "4.25"
+pydantic = "2.7.0"
+soundfile = "0.12.1"
+torch = "2.0.1"
+torchaudio = "2.0.2"
+uvicorn = "0.30.0"
+wget = "3.2"
+fastapi = "0.111.0"
+fastapi-cli = "0.0.4"
+loguru = "0.7.2"
+natsort = "8.4.0"
+vinorm = "^2.0.7"
+huggingface-hub = "0.24.7"
+click = "^8.1.7"
+gunicorn = "^23.0.0"
+silero-vad = "^5.1.2"
+
+[tool.poetry.scripts]
+viet-tts = "viettts.cli:cli"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.setuptools]
+packages = ["viettts"]
