@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "viet-tts"
+name = "viettts"
 version = "0.1.0"
 description = "VietTTS: An Open-Source Vietnamese Text to Speech"
 authors = ["dangvansam <dangvansam98@gmail.com>"]
@@ -37,7 +37,7 @@ gunicorn = "^23.0.0"
 silero-vad = "^5.1.2"
 
 [tool.poetry.scripts]
-viet-tts = "viettts.cli:cli"
+viettts = "viettts.cli:cli"
 
 [build-system]
 requires = ["poetry-core"]
